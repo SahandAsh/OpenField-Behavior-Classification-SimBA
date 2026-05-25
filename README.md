@@ -1,6 +1,9 @@
 # OpenField-Behavior-Classification-SimBA
 Behavioral classification pipeline for rodent open-field assays using pose-estimation outputs and supervised machine learning in SimBA.
 
+
+This project was built using [SimBA](https://github.com/sgoldenlab/simba) and [DeepLabCut](https://github.com/deeplabcut/deeplabcut).
+
 ## Overview
 
 This project demonstrates a behavioral analysis workflow for rodent open-field experiments using SimBA (Simple Behavioral Analysis).
@@ -17,8 +20,9 @@ The project was developed as a self-training exercise in computational behaviora
 
 ## Behavioral Classification Workflow
 
-Real-time behavioral classification.
-x
+Real-time behavioral classification:
+
+![alt text](intro.gif)
 
 ## Why Behavioral Classification Matters
 
@@ -34,22 +38,5 @@ Examples include:
 
 These approaches are increasingly used in systems, social, and translational neuroscience.
 
+![alt text](Figures/Heatmap.png)
 
-
-## Repository Structure
-
-OpenField-Behavior-Classification-SimBA/
-│
-├── README.md
-├── requirements.txt
-│
-├── figures/
-│   ├── Classifier.gif
-│   ├── Heatmap.png
-│   ├── behavior_distribution.png
-│   ├── locomotion_prediction.png
-│   ├── freezing_prediction.png
-│   └── thigmotaxis_prediction.png
-│
-├── sample_data/
-│   └── Validation_cvs.csv
